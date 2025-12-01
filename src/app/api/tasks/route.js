@@ -1,6 +1,7 @@
 
-import { connectDB } from "@/lib/db";
-import Task from "@/models/Task";
+
+import { connectDB } from "@/config/db";
+import Task from "@/models/task";
 import { NextResponse } from "next/server";
 
 // 🟢 CREATE TASK
